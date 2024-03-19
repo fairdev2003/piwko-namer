@@ -15,7 +15,7 @@
     <h1 class="mb-5 font-medium">Piwko namer</h1>
     <p class="text-start mb-1">valuable piwko tesco name:</p>
     <input class="h-[50px] w-full text-lg flex justify-center text-center" type="text" placeholder="Type piwko tesco name here" bind:value={cat_name}/>
-    <CatCard {cat_name}/>
+    <CatCard { cat_name }/>
   </div>
 </main>
 
